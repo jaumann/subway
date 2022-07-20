@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update cloudflared to the lastest version
+./cloudflared update &>/dev/null
+
 #store our pid for cloudflared
 pid=0
 
