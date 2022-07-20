@@ -1,4 +1,4 @@
-FROM alpine:3.14.2
+FROM alpine:3
 
 #install tools 
 RUN apk add --no-cache ca-certificates curl netcat-openbsd jq yq bash docker-cli
